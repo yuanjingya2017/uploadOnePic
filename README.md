@@ -1,7 +1,6 @@
 # uploadOnePic
 //html代码里面添加                  
 <uploadPic @getSonData="getSData"></uploadPic>
-
 //script标签里面添加
 <script>
 import uploadPic from './uploadPic'
