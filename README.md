@@ -7,18 +7,18 @@
 ##### data(){
 ##### return {
   ##### uploadPic:[]
-    ##### }
+}
 ##### },
 ##### components:{
-    ##### uploadPic
+##### uploadPic
 ##### },
 ##### //methods里面添加方法
 ##### methods:{
-    ##### getSData:function (value) {
-            ##### var _this = this;
-            ##### _this.uploadPic = value;
-            ##### console.log(value)
-    ##### }
+##### getSData:function (value) {
+##### var _this = this;
+##### _this.uploadPic = value;
+##### console.log(value)
+##### }
 ##### }
 ##### </script>
 
