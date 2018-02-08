@@ -1,8 +1,8 @@
 # uploadOnePic
-//html代码里面添加                  
-<uploadPic @getSonData="getSData"></uploadPic>
-//script标签里面添加
-<script>
+### //html代码里面添加                  
+### <uploadPic @getSonData="getSData"></uploadPic>
+### //script标签里面添加
+### <script>
 import uploadPic from './uploadPic'
 data(){
 return {
@@ -25,4 +25,4 @@ methods:{
 
 
 
-注意这个组件只能每次选中一张图片，想要上传多张图片要进行多次点击上传按钮，每次选中一张图片。
+###  注意这个组件只能每次选中一张图片，想要上传多张图片要进行多次点击上传按钮，每次选中一张图片。
